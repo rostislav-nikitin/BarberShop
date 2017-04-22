@@ -1,0 +1,26 @@
+@using Barbershop.Mapping
+
+@model Barbershop.WebUI.Models.SearchEmployeeResultModel
+
+@{
+    ViewData["Title"] = "Employee Search Result";
+    Layout = "_Layout";
+}
+
+<h2>Search Results:</h2>
+
+<div>
+@foreach(Employee employee in Model.Employees)
+{
+<div>
+    <ul>
+        <li>
+            <span>@employee.FirstName</span>&nbsp;
+            <span>@employee.LastName</span>&nbsp;
+            <span>@employee.PhoneNumber</span>&nbsp;
+            <span>@employee.Email</span>
+        </li>
+    </ul>
+</div>
+}
+</div>

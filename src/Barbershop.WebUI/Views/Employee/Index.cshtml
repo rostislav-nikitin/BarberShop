@@ -1,0 +1,18 @@
+@model Barbershop.WebUI.Models.SearchEmployeeModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_Layout";
+}
+
+
+<h2>Employees</h2>
+@{
+    using(Html.BeginForm("SearchEmployee", "Employee", FormMethod.Post))
+    {
+        <label>Search:</label>
+        @Html.TextBoxFor(model => model.SearchString)
+        <input type="submit" value="Find Employee" />
+    }
+}
+

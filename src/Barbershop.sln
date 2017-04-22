@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barbershop.WebUI", "Barbershop.WebUI\Barbershop.WebUI.csproj", "{5BA661E4-03C5-41D3-B1D4-D67F7B59D63A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barbershop.DAC", "Barbershop.DAC\Barbershop.DAC.csproj", "{80CA92DC-9897-44F3-AEB1-FF979086531C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barbershop.Mapping", "Barbershop.Mapping\Barbershop.Mapping.csproj", "{0E77250E-5894-4D2A-9E94-1F5743E164B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barbershop.DACCache", "Barbershop.DACCache\Barbershop.DACCache.csproj", "{F3EF1923-32C0-4F0E-9CFE-70183A6A9F15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BA661E4-03C5-41D3-B1D4-D67F7B59D63A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA661E4-03C5-41D3-B1D4-D67F7B59D63A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA661E4-03C5-41D3-B1D4-D67F7B59D63A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA661E4-03C5-41D3-B1D4-D67F7B59D63A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80CA92DC-9897-44F3-AEB1-FF979086531C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CA92DC-9897-44F3-AEB1-FF979086531C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CA92DC-9897-44F3-AEB1-FF979086531C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CA92DC-9897-44F3-AEB1-FF979086531C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E77250E-5894-4D2A-9E94-1F5743E164B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E77250E-5894-4D2A-9E94-1F5743E164B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E77250E-5894-4D2A-9E94-1F5743E164B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E77250E-5894-4D2A-9E94-1F5743E164B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3EF1923-32C0-4F0E-9CFE-70183A6A9F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3EF1923-32C0-4F0E-9CFE-70183A6A9F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3EF1923-32C0-4F0E-9CFE-70183A6A9F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3EF1923-32C0-4F0E-9CFE-70183A6A9F15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
