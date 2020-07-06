@@ -1,2 +1,2 @@
 # BarberShop
-Some demo project from a webinar training.
+Some demo project from the "Enterprise Patterns" webinar.
